@@ -1,10 +1,10 @@
-/*===== RESET DE ESPEÇOS ===========================================================*/
+/*===== RESET DE ESPAÇOS ===========================================================*/
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 ul {
@@ -17,7 +17,7 @@ ul {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 159;
+  --hue: 159; /* Com essa estratégia, consigo alterar todas as cores do meu site */
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -46,7 +46,7 @@ body {
 }
 
 .title {
-  font: 700 1.875rem 'Poppins', sans-serif; /* Oferecendo ao h1 o Poppins */
+  font: 700 1.875rem 'Poppins', sans-serif; /* Oferecendo ao "title" o Poppins */
   color: var(--title-color);
   -webkit-front-smoothing: auto; /* Suavização da fonte */
 }
@@ -64,7 +64,7 @@ body {
 
 .button:hover {
   background: var(--base-color-alt);
-  transition: background 1s;
+  transition: background 0.5s;
 }
 
 .divider-1 {
@@ -236,6 +236,7 @@ nav.show div.icon-close {
   top: -16.8%;
   left: 16.8%;
   z-index: 0;
+  max-width: 612px;
 }
 
 #home .image img {
