@@ -10,6 +10,7 @@
 ul {
   list-style: none;
 }
+
 /*===== VARIABLES ===========================================================*/
 
 :root {
@@ -37,6 +38,11 @@ img {
 }
 
 /*===== BASE ===========================================================*/
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: 400 1rem 'DM Sans', sans-serif; /* Oferecendo ao body o DM Sans */
   color: var(--title-color);
@@ -70,8 +76,17 @@ body {
   height: 1px;
   background: linear-gradient(
     270deg,
-    hsla(var(--hue), 36%, 57%, 1) 0%,
-    hsla(var(--hue), 65%, 88%, 0.34) 100%
+    hsla(var(--hue), 36%, 57%, 1),
+    hsla(var(--hue), 65%, 88%, 0.34)
+  );
+}
+
+.divider-2 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 65%, 88%, 0.34),
+    hsla(var(--hue), 36%, 57%, 1)
   );
 }
 
@@ -92,6 +107,14 @@ body {
 
 .section .title {
   margin-bottom: 1rem;
+}
+
+.section header {
+  margin-bottom: 4rem;
+}
+
+.section header strong {
+  color: var(--base-color);
 }
 
 #header {
@@ -265,6 +288,9 @@ nav.show div.icon-close {
 }
 
 /* ========== ABOUT ====================================== */
+#about {
+  background: white;
+}
 
 #about .container {
   margin: 0; /* Tirando as margens e grudando tudo na parede do container */
@@ -301,4 +327,33 @@ nav.show div.icon-close {
 #about .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem; /* Todo o texto do "ID home" agora passa a ficar todo centralizado */
+}
+
+#about p {
+  font: 400 1rem 'DM Sans', sans-serif;
+}
+
+/* ========== SERVICES ====================================== */
+.cards.grid {
+  gap: 0.2rem;
+}
+
+.card {
+  padding: 3.625rem 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-bottom: 0.25rem solid var(--base-color);
+  border-radius: 0.25rem 0.25rem 0 0;
+  text-align: center;
+}
+
+.card i {
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 5rem;
+  color: var(--base-color);
+}
+
+.card .title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
 }
