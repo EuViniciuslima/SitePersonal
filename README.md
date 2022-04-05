@@ -17,7 +17,8 @@ A criação de um site/blog para um personal na área de educação física para
 
   - Tela Serviços
 
-![image](https://user-images.githubusercontent.com/92753487/161830766-087fc6de-d9f8-4bee-9b54-a4c31a70057a.png)
+![image](https://user-images.githubusercontent.com/92753487/161831236-6f60b283-791f-4653-815e-33302ba2cb8e.png)
+
 
 
 Curso pela RocketSeat: https://www.rocketseat.com.br
