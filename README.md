@@ -1,4 +1,4 @@
-# SitePersonal - em desenvolivmento
+# SitePersonal - em desenvolvimento
 
 A criação de um site/blog para um personal na área de educação física para idosos.
   - Primeiro layout sendo montado para dispositivos mobile.
