@@ -89,6 +89,14 @@ body {
   );
 }
 
+.divider-3 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 36%, 57%, 1),
+    hsla(var(--hue), 65%, 88%, 0.34));
+}
+
 /*===== LAYOUT ===========================================================*/
 .container {
   margin-left: 1.5rem; /* Ela separa partes da esquerda no HTML da borda. */
@@ -390,13 +398,18 @@ nav.show div.icon-close {
 /* ========== TESTIMONIALS ====================================== */
 
 #testimonials .container {
-  margin: 0;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #testimonials {
   background: white;
+}
+
+#testimonials header {
+  margin-bottom: 0;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 #testimonials blockquote {
@@ -433,4 +446,19 @@ nav.show div.icon-close {
   object-fit: cover;
   clip-path: circle();
   margin-right: 0.5rem;
+}
+
+/* swiper */
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem; 
+}
+
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--base-color);
 }
