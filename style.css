@@ -16,7 +16,7 @@ ul {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 165; /* Com essa estratégia, consigo alterar todas as cores do meu site */
+  --hue: 158; /* Com essa estratégia, consigo alterar todas as cores do meu site */
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -68,7 +68,9 @@ body {
 
 .button:hover {
   background: var(--base-color-alt);
-  transition: background 0.5s;
+  transition: background 0.5s ease;
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 .divider-1 {
@@ -166,6 +168,11 @@ main {
   color: var(--title-color);
 }
 
+.logo:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
 .logo span {
   color: var(--base-color);
 }
@@ -255,6 +262,11 @@ nav.show ul.grid {
   color: var(--base-color);
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.toggle:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
 }
 
 nav .icon-close {
