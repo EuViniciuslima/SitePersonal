@@ -169,6 +169,17 @@ main {
   color: var(--base-color);
 }
 
+.logo-alt span {
+  color: var(--body-color);
+}
+
+.logo-alt {
+  font: 700 1.31rem 'Poppins', sans-serif;
+  color: var(--title-color);
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
 /*================ NAVIGATION ===========================================*/
 
 nav {
@@ -495,3 +506,26 @@ nav.show div.icon-close {
   margin-right: 0.625rem;
   color: var(--base-color)
 }
+
+/* ========== FOOTER ====================================== */
+
+footer {
+  background: var(--base-color);
+}
+
+footer .brand p {
+  color: var(--text-color-light);
+  margin-bottom: 0.75rem;
+  
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+footer .social a {
+  margin-right: 2rem; /* Trabalhando em cada elmento "a" ele alinha agrupam os elementos entre eles e coloca uma margem entre eles de 2. */
+}
+
+
