@@ -1,18 +1,16 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?cdjke1');
-  src: url('fonts/icomoon.eot?pgdd6m');
-  src: url('fonts/icomoon.eot?pgdd6m#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?pgdd6m') format('truetype'),
-    url('fonts/icomoon.woff?pgdd6m') format('woff'),
-    url('fonts/icomoon.svg?pgdd6m#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?4a5hu9');
+  src:  url('fonts/icomoon.eot?4a5hu9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4a5hu9') format('truetype'),
+    url('fonts/icomoon.woff?4a5hu9') format('woff'),
+    url('fonts/icomoon.svg?4a5hu9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^='icon-'],
-[class*=' icon-'] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -27,48 +25,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-home:before {
+  content: "\e90e";
+}
+.icon-arrow-up-circle:before {
+  content: "\e900";
+}
 .icon-phone:before {
-  content: '\e900';
+  content: "\e901";
 }
 .icon-close:before {
-  content: '\e901';
+  content: "\e902";
 }
 .icon-cosmetic:before {
-  content: '\e902';
+  content: "\e903";
 }
 .icon-facebook:before {
-  content: '\e903';
+  content: "\e904";
 }
 .icon-Group:before {
-  content: '\e904';
+  content: "\e905";
 }
 .icon-instagram:before {
-  content: '\e905';
+  content: "\e906";
 }
 .icon-mail:before {
-  content: '\e906';
+  content: "\e907";
 }
 .icon-map-pin:before {
-  content: '\e907';
+  content: "\e908";
 }
 .icon-menu:before {
-  content: '\e908';
+  content: "\e909";
 }
 .icon-trim:before {
-  content: '\e909';
+  content: "\e90a";
 }
 .icon-whatsapp:before {
-  content: '\e90a';
+  content: "\e90b";
 }
 .icon-woman-hair:before {
-  content: '\e90b';
+  content: "\e90c";
 }
 .icon-youtube:before {
-  content: '\e90c';
-}
-.icon-home3:before {
-  content: '\e902';
-}
-.icon-mobile:before {
-  content: '\e958';
+  content: "\e90d";
 }
