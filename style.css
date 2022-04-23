@@ -25,6 +25,10 @@ ul {
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
+
+  /* Fonts */
+  --body-font-size: 1rem;
+  --title-font-size: 1.875rem;
 }
 
 a {
@@ -43,14 +47,14 @@ html {
 }
 
 body {
-  font: 400 1rem 'DM Sans', sans-serif; /* Oferecendo ao body o DM Sans */
+  font: 400 var(--body-font-size) 'DM Sans',sans-serif; /* Oferecendo ao body o DM Sans */
   color: var(--title-color);
   background: var(--body-color);
   -webkit-front-smoothing: antialiased; /* Suavização da fonte */
 }
 
 .title {
-  font: 700 1.875rem 'Poppins', sans-serif; /* Oferecendo ao "title" o Poppins */
+  font: 700 var(--title-font-size) 'Poppins', sans-serif; /* Oferecendo ao "title" o Poppins */
   color: var(--title-color);
   -webkit-front-smoothing: auto; /* Suavização da fonte */
 }
@@ -574,6 +578,30 @@ footer .social a:hover {
 .back-to-top:hover {
   transform: scale(1.3);
   transition: all 0.5s;
+}
+
+/* Resposive */
+
+/* ==========   MEDIA QUERIES ====================================== */
+
+/* Extra large devices: 1200 > */
+@media (min-width: 1200px) {
+
+}
+/* large devices 1023 > */
+@media (min-width: 1023px) {
+
+}
+/* large devices 992 > */
+@media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.2rem;
+    --body-font-size: 1.125rem;
+  }
+}
+/* medium devices 767 > "tablets" */
+@media (min-width: 767px) {
+
 }
 
 
