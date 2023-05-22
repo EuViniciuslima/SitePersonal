@@ -16,7 +16,7 @@ ul {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 158; /* Com essa estratégia, consigo alterar todas as cores do meu site */
+  --hue: 360; /* Com essa estratégia, consigo alterar todas as cores do meu site */
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
